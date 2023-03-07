@@ -9,7 +9,7 @@ export default function Input() {
     setValue(event.target.value);
   };
 
-  const colorChangeHandler = (val) => {
+  const colorChangeHandler = () => {
     setValue("");
   };
 
